@@ -1,0 +1,63 @@
+/*
+*#####################
+*#### STYLE SHEET ####
+*####    Index    ####
+*#####################
+*/
+
+*
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body
+{
+    background-color: transparent;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./image/1.png');
+}
+
+div.title_logo
+{
+    width: 40vw;
+    height: 15vw; /* "vw" is used here to fit size ratio of the image */
+    background-color: transparent;
+    opacity: 1.0;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 6%;
+}
+
+div.button
+{
+    width: 8em;
+    height: 3em; /* "vw" is used here to fit size ratio of the image */
+    background-color: white;
+    opacity: 0.5;
+    margin: 0 auto;
+    border-radius: 1.5em;
+    position: relative;
+    margin-top: 6%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3em;
+    font-family: "Rubik";
+    font-weight: bold;
+    color: black;
+}
+
+div.button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+a.button
+{
+    text-decoration: none;
+}
